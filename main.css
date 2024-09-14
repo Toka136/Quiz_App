@@ -1,0 +1,101 @@
+body
+{
+    margin: 0;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.quiz
+{
+    min-height: 100vh;
+    background-color: rgba(0, 0, 139, 0.769);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quiz .container
+{
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+.quiz .container h2
+{
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+.quiz .container h3
+{
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.quiz .container .ans
+{
+    outline: none;
+    border: 1px solid black;
+    padding: 10px;
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    color: black;
+    text-align: start;
+    background-color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+.quiz .container.ans
+{
+    background-color: black;
+    color: white;
+}
+.quiz .container .right
+{
+    background-color: rgb(66, 244, 184);
+}
+.quiz .container .wrong
+{
+    background-color: rgb(240, 48, 48);
+}
+.quiz .container .button-show
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 15px;
+}
+.quiz .container .button-show .next
+{
+    background-color: darkblue;
+    color: white;
+    outline: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border: 1px solid black;
+    transition: .3s;
+    cursor: pointer;
+}
+.quiz .container .button-show .next:hover
+{
+    background-color: white;
+    color: darkblue;
+    border-color: darkblue;
+}
+.quiz .container .hidden
+{
+    display: none;
+}

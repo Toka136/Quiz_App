@@ -1,0 +1,30 @@
+<html lang="en"></html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qiuz</title>
+    <!-- <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.esm.js"></script>
+    <script src="js/bootstrap.bundle.js"></script> -->
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="quiz">
+        <div class="container">
+            <h2>Simple Quiz</h2>
+            <h3 id="question"></h3>
+            <button class="ans" onclick="Check(0)"></button>
+            <button class="ans"  onclick="Check(1)"></button>
+            <button class="ans"  onclick="Check(2)"></button>
+            <button class="ans"  onclick="Check(3)"></button>
+           <div class="button-show">
+            <button id="next" class="next" onclick="Next()">Next</button>
+           </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
